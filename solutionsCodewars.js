@@ -35,3 +35,17 @@ function getSum( a,b ){
 	const odd = array.filter((x) => x % 2).sort((a,b) => a - b);
 	return array.map((x) => x % 2 ? odd.shift() : x);
  };    
+
+ //Simple, given a string of words, return the length of the shortest word(s).
+//String will never be empty and you do not need to account for different data types.
+
+function findShort(s){
+	let res = s.split(' ');
+	let a = Infinity;
+	
+	for (let i = 0; i < res.length; i++) {
+	  a = Math.min(res[i].length, a);
+	}
+	return a;
+ }
+ 
