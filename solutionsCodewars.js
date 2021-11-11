@@ -109,3 +109,15 @@ function stringToArray(string){
 	}
 	return count;
 }
+
+//Given an integral number, determine if it's a square number
+
+var isSquare = function(n){
+	if (n < 0){
+	  return false;
+	}
+	if (n % Math.sqrt(n) == 0){
+	  return true;
+	}
+	return false;
+ }
