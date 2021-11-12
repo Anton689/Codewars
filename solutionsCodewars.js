@@ -186,3 +186,16 @@ var isSquare = function(n){
 		  return Math.max.apply(0, numbers) + ' ' + Math.min.apply(0, numbers);
 		}
 
+		//Your task is to write function factorial.
+
+		function factorial(n){
+			if (n === 1){
+			  return 1;
+			}
+			if (n === 0){
+			  return 1;
+			}
+			return n * (factorial(n-1))
+		 }
+
+		 
