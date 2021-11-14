@@ -278,6 +278,18 @@ var isSquare = function(n){
 			return arr;
 		 }
 		 
+		 //Given a string of arbitrary length with any ascii characters. Write a function to determine whether the string contains the whole word "English".
+
+		 function spEng(sentence){
+			for (var i = 0; i < sentence.length - 6; i++) {
+			  if (sentence.slice(i, i + 7).toLowerCase() === 'english') {
+				
+				 return true;
+			  }
+			}
+			return false;
+		 }
+		 
 
 
 
