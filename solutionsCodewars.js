@@ -328,3 +328,12 @@ function numberToPower(number, power){
 	}
 	return result;
  }
+
+ //Be Concise IV - Index of an element in an array
+
+ function find(array, element) {
+	if(array.indexOf(element) !== -1) {
+	  return array.indexOf(element);
+	}
+	return "Not found";
+ }
