@@ -308,3 +308,14 @@ function reverse(string){
   return result;
 }
 
+//Debug function getSumOfDigits that takes positive integer to calculate sum of it's digits. Assume that argument is an integer.
+
+function getSumOfDigits(integer) {
+   const numString = integer.toString();
+   let sum = 0;
+   for(i = 0; i < numString.length; i++){
+       sum += Number(numString[i]);
+   }
+   return sum;
+}
+
