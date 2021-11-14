@@ -254,6 +254,12 @@ var isSquare = function(n){
 			return sum;
 		 }
 
+		 //Make a program that filters a list of strings and returns a list with only your friends name in it.
+
+		 function friend(friends){
+			return friends.filter(el => el.length === 4);
+		 }
+
 		 //
 		 
 
