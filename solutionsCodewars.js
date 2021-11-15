@@ -345,3 +345,10 @@ function numberToPower(number, power){
 	let res = array.reduce((a, e) => {return e**2+a },0);
 	return res;
  }
+
+ //Write a function that accepts two arguments and returns the remainder after dividing the larger number by the smaller number.
+
+ function remainder(a, b){
+   return (a > b ? a % b : b % a)
+}
+
