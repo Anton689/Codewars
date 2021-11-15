@@ -337,3 +337,11 @@ function numberToPower(number, power){
 	}
 	return "Not found";
  }
+
+ //You are given a program sumSquares that takes an array as input and returns the sum of the squares of each item in an array. For example:
+ //could contain 101 characters or less
+
+ function sumSquares(array) {
+	let res = array.reduce((a, e) => {return e**2+a },0);
+	return res;
+ }
