@@ -428,4 +428,14 @@ const divisions = (n, divisor) => {
 	return false;
  }
 
- 
+ //Merge two sorted arrays into one
+
+ function mergeArrays(arr1, arr2) {
+   let mergeArr = [...arr1, ...arr2];
+   let result = mergeArr.sort(function (a, b) {return a - b;
+  });
+  return [...new Set (result)];
+  
+}
+
+
