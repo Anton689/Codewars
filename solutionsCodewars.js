@@ -375,3 +375,11 @@ function notVisibleCubes(n) {
 	console.log(n)
 	  return n > 3 ? (n-2) * (n-2) * (n-2) : n == 3 ? 1:0
 	}
+
+	// Given a grid of size m x n, calculate the total number of rectangles contained in this rectangle. All integer sizes and positions are counted.
+
+	function numberOfRectangles(m, n) {
+		return (((m**2) + m)*((n**2) + n))/4
+	 }
+
+	 
