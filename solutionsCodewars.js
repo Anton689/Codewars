@@ -368,4 +368,10 @@ function litres(time) {
 	const litres = 0.5; return Math.floor(time * litres);
  }
 
- 
+ //Imagine there's a big cube consisting of n3 n^3n 
+//3 small cubes. Calculate, how many small cubes are not visible from outside.
+
+function notVisibleCubes(n) {
+	console.log(n)
+	  return n > 3 ? (n-2) * (n-2) * (n-2) : n == 3 ? 1:0
+	}
