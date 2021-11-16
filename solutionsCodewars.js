@@ -438,4 +438,10 @@ const divisions = (n, divisor) => {
   
 }
 
+//Digital root is the recursive sum of all the digits in a number.
+
+function digital_root(n) {
+	return (n - 1) % 9 + 1;
+ }
+
 
