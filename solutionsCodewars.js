@@ -467,7 +467,11 @@ function elevatorDistance(array) {
 
 const expressionMatter = (a, b, c) => Math.max(...[a * (b + c), a * b * c, a + b + c, (a + b) * c]);
 
+//Terminal game move function
 
+function move(position, roll) {
+	return position + (roll * 2)
+}
 
 
 
