@@ -444,4 +444,15 @@ function digital_root(n) {
 	return (n - 1) % 9 + 1;
  }
 
+ //Detect Pangram
+
+ function isPangram(string){
+	string = string.toLowerCase();
+	return "abcdefghijklmnopqrstuvwxyz"
+	  .split("").every(function(x){
+		 return string.indexOf(x) !== -1;
+	});
+ }
+
+
 
