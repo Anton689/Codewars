@@ -496,7 +496,11 @@ function lastChair(n) {
 	return str.replace(/79(?=7)/g, '7');
  }
  
+ //Credit Card Mask
  
+ function maskify(cc){
+	return cc.slice(0, -4).replace(/./g, '#') + cc.slice(-4);
+ }
  
   
 
