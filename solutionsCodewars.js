@@ -501,6 +501,13 @@ function lastChair(n) {
  function maskify(cc){
 	return cc.slice(0, -4).replace(/./g, '#') + cc.slice(-4);
  }
+
+ //Greet Me
+
+ var greet = function(name) {
+	return `Hello ${(name.slice(0,1).toUpperCase())+(name.slice(1).toLowerCase())}!`
+	};
+
  
   
 
