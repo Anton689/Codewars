@@ -508,6 +508,17 @@ function lastChair(n) {
 	return `Hello ${(name.slice(0,1).toUpperCase())+(name.slice(1).toLowerCase())}!`
 	};
 
+
+	//Square Every Digit
+
+const squareDigits = number =>
+  Number(
+    String(number)
+      .split('')
+      .map(digit => digit ** 2)
+      .join('')
+    )
+
  
   
 
