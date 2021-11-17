@@ -519,6 +519,10 @@ const squareDigits = number =>
       .join('')
     )
 
+//Digitize
+
+const digitize = n => Array.from(String(n), number => Number(number))
+
  
   
 
