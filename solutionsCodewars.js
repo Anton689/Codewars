@@ -590,6 +590,15 @@ const checkExam = (answers, responses) => {
 	return score > 0 ? score : 0
  }
 
+ //Determine offspring sex based on genes XX and XY chromosomes
+
+ const chromosomeCheck = sperm =>
+  `Congratulations! You're going to have a ${
+    sperm.includes('Y') ? 'son' : 'daughter'
+  }.`
+
+  
+
 
 
  
