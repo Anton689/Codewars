@@ -631,6 +631,10 @@ function evenChars(string) {
 	return [...string].map((v,i)=>i%2!==0?v:null).filter(v=>v!==null)
  }
 
+ //ES6 string addition
+
+ const joinStrings = (string1, string2) => `${string1} ${string2}`
+
 
 
 
