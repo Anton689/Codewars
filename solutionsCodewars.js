@@ -617,6 +617,13 @@ const checkExam = (answers, responses) => {
 
 const multiplyAll = array => int => array.map(number => number * int)
 
+//Variable assignment
+
+var a = "dev"
+var b = "Lab"
+
+var name = a + b
+
 
 
 
