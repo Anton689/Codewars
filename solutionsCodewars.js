@@ -528,6 +528,18 @@ const digitize = n => Array.from(String(n), number => Number(number))
 const getEvenNumbers = numbersArray =>
   numbersArray.filter(number => number % 2 === 0)
 
+  //Build a pile of Cubes
+
+  function findNb(m) {
+	let n = 0;
+	let sum = 0;
+	while (sum < m) {
+	  n++;
+	  sum += Math.pow(n, 3);
+	}
+	return sum === m ? n : -1;
+ }
+
  
   
 
