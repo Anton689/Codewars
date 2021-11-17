@@ -523,6 +523,11 @@ const squareDigits = number =>
 
 const digitize = n => Array.from(String(n), number => Number(number))
 
+//JavaScript Array Filter
+
+const getEvenNumbers = numbersArray =>
+  numbersArray.filter(number => number % 2 === 0)
+
  
   
 
