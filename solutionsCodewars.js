@@ -568,7 +568,15 @@ const getEvenNumbers = numbersArray =>
 		return (`${hours}${minutes}`).split('').reduce((a,b) => a + +(b),0)
 	 }
 
-	 
+	 //Stacked Balls - 2D
+
+	 function stackHeight2d(layers) {
+		return !layers ? 0 : ((layers - 1) * Math.sqrt(3) / 2 + 1)
+	 }
+
+	 //
+
+
 
  
   
