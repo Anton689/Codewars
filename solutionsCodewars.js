@@ -550,6 +550,16 @@ const getEvenNumbers = numbersArray =>
  
 	return smallest
  }
+
+ //Counting sheep...
+
+ function countSheeps(arrayOfSheep) {
+	let newArr = arrayOfSheep.filter((elem) =>{
+	  return elem === true;
+	});
+	return newArr.length;
+	}
+
  
   
 
