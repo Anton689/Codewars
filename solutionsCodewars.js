@@ -613,6 +613,10 @@ const checkExam = (answers, responses) => {
 	
 	}
 
+//Currying functions: multiply all elements in an array
+
+const multiplyAll = array => int => array.map(number => number * int)
+
 
 
 
