@@ -477,5 +477,11 @@ function move(position, roll) {
 
 const opposite = number => -number;
 
+//Greet Me
+
+let greet = function(name) {
+	return `Hello ${(name.slice(0,1).toUpperCase())+(name.slice(1).toLowerCase())}!`
+	};
+
 
 
