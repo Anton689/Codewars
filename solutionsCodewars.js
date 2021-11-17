@@ -606,6 +606,13 @@ const checkExam = (answers, responses) => {
 	if (card.includes('♠')) return 'spades'
  }
 
+ //You only need one - Beginner
+
+ function check(a, x) {
+	return a.includes(x)
+	
+	}
+
 
 
 
