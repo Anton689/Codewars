@@ -624,6 +624,13 @@ var b = "Lab"
 
 var name = a + b
 
+//Return a string's even characters.
+
+function evenChars(string) {
+	if (string.length<2||string.length>99) return "invalid string"
+	return [...string].map((v,i)=>i%2!==0?v:null).filter(v=>v!==null)
+ }
+
 
 
 
